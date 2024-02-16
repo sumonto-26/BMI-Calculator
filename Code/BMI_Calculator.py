@@ -24,6 +24,7 @@ def calculate_bmi():
 
     except ValueError:
         bmi_result.set("Please enter valid numeric values")
+        result_label['background'] = "red"
 
 root = tk.Tk()
 root.geometry("600x550")
