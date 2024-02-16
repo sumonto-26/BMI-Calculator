@@ -1,5 +1,5 @@
 # BMI Calculator with Python and Tkinter
-This project is a simple Body Mass Index (BMI) calculator built using Python and Tkinter. BMI is a measure of body fat based on height and weight that applies to adult men and women. This calculator provides a user-friendly interface to input weight and height metrics and calculates the BMI instantly.
+This project is a simple Body Mass Index (BMI) calculator built using Python and Tkinter. BMI is a measure of body fat based on height and weight that applies to adult men and women. This calculator provides a user-friendly interface to input weight and height metrics and calculates the BMI instantly.\n
 Features:
 User-Friendly Interface: Built with Tkinter, providing a simple and intuitive user experience.
 BMI Calculation: Utilizes the BMI formula to accurately calculate BMI based on user input.
