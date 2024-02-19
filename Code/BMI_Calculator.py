@@ -23,14 +23,14 @@ def calculate_bmi():
         bmi_result.set(f"Your BMI is: {ans:.2f}")
         result_label['background'] = "lightgreen"
 
-    except ValueError:
+    except:
         bmi_result.set("Please enter valid numeric values")
         result_label['background'] = "red"
 
 root = tk.Tk()
 root.geometry("800x600")
 root.title("BMI Calculator")
-# root.resizable(False, False)
+root.minsize(800 , 600)
 root.configure(bg = "grey15")
 
 label1 = tk.Label(
@@ -102,7 +102,7 @@ result_label = tk.Label(
     foreground = "grey13",
     font = "None 20 bold"
 )
-result_label.place(x = 150, y = 355)
+result_label.pack(side = "bottom",padx = 15, pady = 120)
 
 submit_button = tk.Button(
     master = root,
